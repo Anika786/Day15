@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Head Sectionn */
+
+.nav{
+    background-color: #2b2a4c;
+}
+.logo{
+    float: left;
+    width: 30%;
+    
+}
+.logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #b31312;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+    padding-top: 35px;
+    line-height: 70%;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: olivedrab;
+    font-weight: bold;
+}
+
+/* Banner Section */
+
+.banner{
+    padding: 10% 0%;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg);
+    background-size: cover;
+    background-position:  top right;
+}
+.banner h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.banner p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0px;
+}
+.banner button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 5px solid red;
+    border-radius: 10px;
+    color: red;
+}
+.banner button:hover{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    color: greenyellow;
+}
+
+/* Service Section */
+
+.service{
+    padding: 5%;
+    background-color:#d7ac9c;
+    line-height: 50px;
+    transition: .5s;
+    
+}
+
+.service h1{
+    text-align: center;
+    color:#143031 ;
+    font-weight: bold;
+    
+}
+.service p{
+    text-align: center;
+    color:#143031;
+    font-size: 20px;
+}
+.services-box h1{
+    text-align: center;
+}
+.services-box{
+    width: 23%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    margin-top: 52px;
+    box-sizing: border-box;
+    border: 2px solid #000;   
+}
+
+.services-box:hover{
+    width: 23%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    margin-top: 52px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+}
+.services-box i{
+    color: #000;
+    font-size: 15px;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.services-box i:hover{
+    color:#fff;
+    font-size: 15px;
+    padding: 20px 0px;
+    font-size: 20px;
+    
+}
+.services-box h3{
+    color: #000;
+    padding-bottom:20px ;
+    font-size: 20px;
+}
+.services-box h3:hover{
+    color:#fff;
+    padding-bottom:20px ;
+    font-size: 20px;
+}
+.services-box p{
+    color: #000;
+    padding-bottom:20px ;
+    font-size: 20px;
+}
+.services-box p:hover{
+    color: #fff;
+    padding-bottom:20px ;
+    font-size: 20px;
+}
+
+/* About Section */
+
+.about{
+    padding: 4%;
+    background-color:#b1935f;
+    
+    
+}
+.about-heading h1{
+    text-align: center;
+    color: black;
+    
+}
+.about-heading p{
+    text-align: center;
+    color: black;
+    margin-bottom: 47px;
+    line-height: 20px;
+    font-size: 20px;
+    
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.about-box-1{
+    width: 30%;
+}
+.about-box-2{
+    margin: 30px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 65%;
+}
+.about-box-2 h3{
+    padding: 10px 0px;
+    color:#860a35;
+}
+
+/* Contact Section */
+
+.contact{
+    padding: 4%;
+    background-color:#1aacac;
+}
+.contact-heading h1{
+    text-align: center;
+    color: black;
+}
+.contact-heading p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 47px;
+}
+.contact-box{
+    width: 21%;
+    margin: 0px 5%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    margin-top: 52px;
+}
+.contact-box i{
+    color:black;
+    padding: 20px 0px;
+}
+
+/* Social Section */
+
+.social-icon{
+    padding: 0px 30px;
+    background-color:#8eac50;
+    text-align: center;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    color: white;
+}
+.social-icon ul li:hover{
+    display: inline-block;
+    margin: 10px 10px;
+    color: red;
+}
+
+/* Footer Section */
+
+.footer{
+    padding: 15px 0px;
+    text-align: center;
+    background-color:#025464;
+    color: white;
+}
